@@ -35,10 +35,21 @@
             android:onClick="gotoPage3"
             />
     </LinearLayout>
+
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+        <!-- 標題式-->
+        <!--<androidx.viewpager.widget.PagerTitleStrip-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+            <!-- 有線式-->
+        <androidx.viewpager.widget.PagerTabStrip
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
     </androidx.viewpager.widget.ViewPager>
 
